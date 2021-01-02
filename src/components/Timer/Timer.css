@@ -1,0 +1,83 @@
+.heading {
+  font-size: 50px;
+  color: #ffffff;
+}
+/* Display */
+.main {
+  background-color: #ffffff;
+  width: 600px;
+  height: 272;
+  margin: auto;
+}
+.main-container {
+  padding: 60px 0;
+}
+.time {
+  background: #00ff62;
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Button */
+.button-container {
+  margin-top: 20px;
+}
+.start {
+  border: 2px solid #00ff62;
+  background: transparent;
+  padding: 15px 50px;
+  color: #00ff62;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 1s;
+}
+.start:hover {
+  background-color: #00ff62;
+  color: #ffffff;
+}
+
+.stop {
+  border: 2px solid #ff3737;
+  background: transparent;
+  padding: 15px 50px;
+  color: #ff3737;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 1s;
+  margin-right: 5px;
+}
+.stop:hover {
+  background-color: #ff3737;
+  color: #ffffff;
+}
+
+.reset {
+  border: 2px solid #ffd53f;
+  background: transparent;
+  padding: 15px 50px;
+  color: #ffd53f;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 1s;
+}
+.reset:hover {
+  background-color: #ffd53f;
+  color: #ffffff;
+}
+
+.resume {
+  border: 2px solid #00ff62;
+  background: transparent;
+  padding: 15px 50px;
+  color: #00ff62;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 1s;
+  margin-right: 5px;
+}
+.resume:hover {
+  background-color: #00ff62;
+  color: #ffffff;
+}
