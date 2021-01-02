@@ -1,16 +1,8 @@
 import React from 'react'
 import './Button.css'
+import { buttonProps } from '../../types/types'
 
-type Props = {
-    startButton: boolean
-    stopButton: boolean
-    start: () => void
-    stop: () => void
-    resume: () => void
-    reset: () => void
-}
-
-const Button: React.FC<Props> = ({ startButton, stopButton, start, stop, resume, reset }) => {
+const Button: React.FC<buttonProps> = ({ startButton, stopButton, start, stop, resume, reset }) => {
     return (
         <>
             <div className="button-container">

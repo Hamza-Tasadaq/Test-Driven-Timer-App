@@ -1,14 +1,8 @@
-import { type } from 'os'
 import React, { useState } from 'react'
 import Button from '../Button/Button'
 import Display from '../Display/Display'
 import './Timer.css'
-
-type Time = {
-    seconds: number
-    minutes: number
-    hours: number
-}
+import { Time } from '../../types/types'
 
 function Timer() {
 
@@ -61,7 +55,7 @@ function Timer() {
 
     const stop = () => {
         clearInterval(interv)
-        
+
         setStopButton(false)
     }
 

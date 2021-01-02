@@ -1,13 +1,8 @@
 import React from 'react'
 import './Display.css'
+import { displayProps } from '../../types/types'
 
-type Props = {
-    seconds: number
-    minutes: number
-    hour: number
-}
-
-const Display: React.FC<Props> = ({ seconds, minutes, hour }) => {
+const Display: React.FC<displayProps> = ({ seconds, minutes, hour }) => {
     return (
         <div className="time-container">
             <span className="time">
