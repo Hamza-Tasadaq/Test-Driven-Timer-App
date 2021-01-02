@@ -1,0 +1,17 @@
+/* Display */
+.main {
+  background-color: #ffffff;
+  width: 600px;
+  height: 272;
+  margin: auto;
+}
+.main-container {
+  padding: 60px 0;
+}
+.time {
+  background: #00ff62;
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+}

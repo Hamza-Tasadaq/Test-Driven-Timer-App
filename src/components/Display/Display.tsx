@@ -1,5 +1,5 @@
-import { type } from 'os'
 import React from 'react'
+import './Display.css'
 
 type Props = {
     seconds: number
