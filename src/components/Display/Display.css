@@ -2,8 +2,11 @@
 .main {
   background-color: #ffffff;
   width: 600px;
-  height: 272;
   margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .main-container {
   padding: 60px 0;
@@ -15,3 +18,12 @@
   padding: 20px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 750px) {
+  .main {
+    width: 50%;
+  }
+}
+
+
+
