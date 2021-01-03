@@ -89,7 +89,6 @@ function Timer() {
     return (
         <>
             <h1 className="heading">Timer App</h1>
-
             <div className="main">
                 <div className="main-container">
                     <Display

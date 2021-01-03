@@ -8,14 +8,14 @@ const Button: React.FC<buttonProps> = ({ startButton, stopButton, start, stop, r
             <div className="button-container">
                 {
                     startButton ?
-                        <button onClick={start} className="start">Start</button> :
+                        <button onClick={start} data-testid="Start" className="start">Start</button> :
                         <>
                             {
                                 stopButton ?
-                                    <button onClick={stop} className="stop">Stop</button> :
-                                    <button onClick={resume} className="resume">Resume</button>
+                                    <button onClick={stop} data-testid="Stop" className="stop">Stop</button> :
+                                    <button onClick={resume} data-testid="Resume" className="resume">Resume</button>
                             }
-                            <button onClick={reset} className="reset">Reset</button>
+                            <button onClick={reset} data-testid="Reset" className="reset">Reset</button>
                         </>
                 }
             </div>
